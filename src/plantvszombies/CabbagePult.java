@@ -1,8 +1,10 @@
 package plantvszombies;
 
-public class Peashooter extends AttackPlants{
-protected Peashooter () {
-	super("Peashooter",100,300,"Straight","Appease-mint",5,20,"Duration","",0);
+public class CabbagePult extends AttackPlants {
+protected CabbagePult () {
+	//	public AttackPlants (String name, int sunCost, int toughness, String range, String family, int recharge, double damage, String plantFoodPower, String sunProduction) {
+
+	super ("Cabbage-Pult", 100,300,"Lobbed","Arma-mint",5,40,"Cabbage Count","",0);
 }
 
 @Override
@@ -14,12 +16,12 @@ protected String getInfo() {
 @Override
 protected String getAction() {
 	// TODO Auto-generated method stub
-	return "Shoot a pea a second. A pea does 20 damages to a zombie";
+	return "Launch a cabbage for every 3 seconds that does 40 damages";
 }
 
 @Override
 protected String getProduct() {
 	// TODO Auto-generated method stub
-	return "When given Plant Food, Peashoote becomes a fast-shooting Gatling Pea, shooting 60 peas in two seconds";
+	return "When Cabbage";
 }
 }

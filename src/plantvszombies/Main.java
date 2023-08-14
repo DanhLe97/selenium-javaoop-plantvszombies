@@ -22,5 +22,19 @@ public static void main(String[] plantvszombies) {
 	System.out.println(psun.getAction());
 	System.out.println(psun.getProduct());
 	
+	WallNut nut = new WallNut();
+	System.out.println(nut.getInfo());
+	System.out.println(nut.getAction());
+	System.out.println(nut.getProduct());
+	
+	PotatoMine pot = new PotatoMine();
+	System.out.println(pot.getInfo());
+	System.out.println(pot.getAction());
+	System.out.println(pot.getProduct());
+	
+	CabbagePult cab = new CabbagePult();
+	System.out.println(cab.getInfo());
+	System.out.println(cab.getAction());
+	System.out.println(cab.getProduct());
 }
 }
