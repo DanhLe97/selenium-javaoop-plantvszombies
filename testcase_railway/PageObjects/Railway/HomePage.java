@@ -1,0 +1,21 @@
+package Railway;
+
+import Constant.Constant;
+
+public class HomePage extends GeneralPage {
+	// Locators
+	// Elements
+	public String getUrlHome() {
+		return Constant.WEBDRIVER.getCurrentUrl();
+	}
+
+	// Methods
+	public HomePage open() {
+		Constant.WEBDRIVER.navigate().to(Constant.RAILWAY_URL);
+		return this;
+	}
+
+	public String getUrlHomePage() {
+		return this.getUrlHome();
+	}
+}
